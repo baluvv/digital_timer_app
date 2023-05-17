@@ -1,0 +1,117 @@
+.app-container {
+  height: 100vh;
+  background-image: linear-gradient(to right, #defafe, #cffcf1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: 600;
+  color: #1e293b;
+}
+.bottom-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-container {
+  height: 90vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.time-running-container {
+  height: 200px;
+  width: 200px;
+  background-color: #ffffff;
+  border: 0px solid none;
+  border-radius: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.count-down-time {
+  font-family: 'Roboto';
+  color: #00d9f5;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.status {
+  font-family: 'Roboto';
+  color: #0f172a;
+  margin-top: 0px;
+  font-weight: 600;
+}
+.operating-container {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.start-reset-container {
+  width: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  background-color: transparent;
+  border-width: 0px;
+}
+.icon {
+  height: 60px;
+  width: 60px;
+}
+.operate-type {
+  font-family: 'Roboto';
+  color: #0f172a;
+  font-size: 23px;
+  font-weight: 600;
+  margin-right: 50px;
+  background-color: transparent;
+  border-width: 0px;
+}
+.set-timer {
+  font-family: 'Roboto';
+  color: #0f172a;
+  margin-bottom: 0px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.minutes-adjust-container {
+  display: flex;
+  align-items: center;
+}
+.minutes {
+  width: 80px;
+  background-image: linear-gradient(to right, lightgreen, #00d9f5);
+  border: 0px solid none;
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 20px;
+  padding: 8px;
+  font-weight: 600;
+}
+
+.adjust-button {
+  border-width: 0px;
+  background-color: transparent;
+  font-size: 28px;
+  font-weight: 600;
+}
